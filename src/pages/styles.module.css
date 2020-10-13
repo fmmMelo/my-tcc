@@ -6,7 +6,11 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  background-image: url("../../static/img/background 2.jpg");
+  padding: 18rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 950px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -31,7 +35,30 @@
   width: 100%;
 }
 
+.feature
+{
+  padding: 5rem 0;
+  background-color: var(--color-light-background);
+}
+
 .featureImage {
   height: 200px;
   width: 200px;
 }
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* 
+.imageHero
+{
+  width: 50%;
+  height: 50%;
+} */

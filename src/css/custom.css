@@ -7,15 +7,19 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  
+  --color-light-background: #e9e9e9;
+  --color-dark-background: #242526;
+  --ifm-color-primary: #A8BEC9;
+  --ifm-color-primary-dark: rgb(92, 145, 175);
+  --ifm-color-primary-darker: rgb(83, 127, 156);
+  --ifm-color-primary-darkest: rgb(26, 96, 136);
+  --ifm-color-primary-light: rgb(149, 217, 248);
+  --ifm-color-primary-lighter: rgb(168, 227, 255);
+  --ifm-color-primary-lightest: rgb(206, 237, 252);
   --ifm-code-font-size: 95%;
 }
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -23,3 +27,23 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.navbar--fixed-top
+{
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  padding: 0 12rem;
+  color: #F3f3f3;
+}
+
+.navbar__title, .navbar__link
+{
+  color: #f2f2f2
+}
+
+.footer--dark
+{
+  background-color: var(--color-dark-background);
+}
+

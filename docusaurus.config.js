@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'My Site',
+  title: 'DBC',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://dronedebaixocusto.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Drone de Baixo Custo',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,13 +18,13 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          label: 'Home',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Documentação', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Contato',
           position: 'right',
         },
       ],
@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Drone de Baixo Custo`,
     },
   },
   presets: [

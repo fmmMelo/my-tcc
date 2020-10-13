@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/drone-svg.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/construction-svg.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/completed-svg.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -59,25 +59,33 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      title={`${siteConfig.title} | Drone de Baixo Custo`}
+      description="">
+      <header className={clsx('hero shadow--lw', styles.heroBanner)}>
+
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
+  
+  <div className="row">
+
+  <div className="col" >
+                <h1 className="hero__title">Construa com toda a tecnologia</h1>
+                <p className="hero__subtitle">Use nossa criação para alavancar seus projetos</p>
+ 
+                    <button class="button button--light button--outline button--lg">
+                      Get Started now
+                    </button>
+
+                </div>
+
+  </div>
+              
+              {/* <img className={styles.imageHero} src="../../static/img/baixados.png" alt="imagem-drone"/> */}
+
         </div>
+
       </header>
-      <main>
+
+      <main className={styles.feature}>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
