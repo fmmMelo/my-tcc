@@ -1,0 +1,44 @@
+.container-map
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 2rem 2rem;
+}
+
+.map-description
+{
+    text-align: center;
+
+    margin-bottom: 20px;
+    padding: 0 13rem;
+
+    z-index: 10;
+}
+
+.map-description p
+{
+   text-align: justify;
+}
+
+
+.view-map
+{
+    /* margin-top: 15rem;
+    position: absolute; */
+    width: 150vh;
+    height: 80vh;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 966px) 
+{
+    .map-description
+{
+    padding: 0;
+}
+}

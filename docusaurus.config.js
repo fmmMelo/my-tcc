@@ -9,73 +9,40 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Drone de Baixo Custo',
+      title: 'D B C',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png ',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: '/',
+          activeBasePath: 'home',
           label: 'Home',
           position: 'right',
         },
-        {to: 'blog', label: 'Documentação', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'Contato',
+          to: '/#description',
+          activeBasePath: 'who',
+          label: 'Quem somos?',
+          position: 'right',
+        },
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Documentação',
+          position: 'right',
+        },
+        {to: 'blog', label: 'Blog', position: 'right'},
+        {
+          href: 'https://github.com/fmmMelo/DroneDeBaixoCusto.git',
+          label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Drone de Baixo Custo`,
     },
   },
@@ -96,7 +63,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/global.css')],
         },
       },
     ],

@@ -1,0 +1,42 @@
+.avatar-container
+{
+    max-width: 100%;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.link-destq
+{
+    color: var(--ifm-color-primary-darkest);
+}
+
+.avatar__name
+{
+    font-size: 2rem;
+}
+
+.avatar__subtitle #devs
+{
+    font-weight: 500;
+}
+
+.avatar__subtitle p
+{
+    text-align: justify;
+}
+
+#devs
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 966px) 
+{
+    .avatar__subtitle p
+    {
+        padding: 2rem;
+    }
+}

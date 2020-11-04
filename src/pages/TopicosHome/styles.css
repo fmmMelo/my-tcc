@@ -1,0 +1,64 @@
+
+.container
+{
+    margin-top: 3rem;
+}
+
+.sub-topics
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+
+.text-topic
+{
+   padding: 2rem 0;
+}
+
+
+#topic1
+{
+    flex-direction: row-reverse;
+}
+
+
+.sub-topics img
+{
+    width: 40%;
+    max-height: 100%;
+    margin: 0 5rem;
+}
+
+#arduino-img
+{
+    width: 28%;
+}
+
+
+
+@media screen and (max-width: 966px) 
+{
+    .sub-topics
+    {
+        flex-direction: column;
+    }
+    .text-topic
+    {
+        margin: 0;
+        padding: 1rem;
+    }
+    #topic1
+    {
+        flex-direction: column;
+    }
+
+    .sub-topics img
+    {
+        width: 50%;
+    }
+}
