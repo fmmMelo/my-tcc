@@ -4,9 +4,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
-import AvatarHome from './AvatarHome/AvatarHome';
-import Topicos from './TopicosHome/TopicoHome';
-import ViewMap from './LocationMap/Map';
+import AvatarHome from '../components/AvatarHome/AvatarHome';
+import Topicos from '../components/TopicosHome/TopicoHome';
+import ViewMap from '../components/LocationMap/Map';
 
 
 function Home() {

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
    
-    padding: 2rem 2rem;
+    padding: 5rem 5rem;
 }
 
 .map-description
@@ -27,18 +27,22 @@
 
 .view-map
 {
-    /* margin-top: 15rem;
-    position: absolute; */
     width: 150vh;
     height: 80vh;
     z-index: 0;
 }
 
 
-@media screen and (max-width: 966px) 
+@media screen and (max-width: 1680px) 
 {
+    .view-map
+    {
+        width: 100%;
+        
+    }
+
     .map-description
-{
-    padding: 0;
-}
+    {
+        padding: 0;
+    }
 }

@@ -1,12 +1,12 @@
 module.exports = {
   title: 'DBC',
   tagline: 'The tagline of my site',
-  url: 'https://dronedebaixocusto.com',
-  baseUrl: '/',
+  url: 'fmmMelo.github.io',
+  baseUrl: '/my-tcc/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'fmmMelo', // Usually your GitHub org/user name.
+  projectName: 'my-tcc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'D B C',
@@ -43,7 +43,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Drone de Baixo Custo`,
+      copyright: `Copyright © ${new Date().getFullYear()} Drone de Baixo Custo        `,
     },
   },
   presets: [

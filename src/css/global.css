@@ -40,8 +40,7 @@ button
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
-  margin: 0 calc(-1 * --ifm-pre-padding);
-  padding: 0 --ifm-pre-padding;
+  padding: 0;
 }
 
 .navbar--fixed-top
@@ -124,10 +123,36 @@ button
   background-color: #fff;
 }
 
-.row
+
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover)
 {
-  margin-top: 3rem;
+  width: 220px;
+  height: 60px;
+
+  color: #f2f2f2;
 }
+
+.button.button--secondary.button--outline:not(.button--active):hover
+{
+  width: 220px;
+  height: 60px;
+}
+
+.row main
+{
+  padding-top: 5rem;
+}
+
+#header .container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 
 
 @media screen and (max-width: 966px) 
@@ -147,4 +172,16 @@ button
   {
     background-color: #fff;
   }
+
+  .hero__title, .hero__subtitle
+  {
+    font-size: 120%;
+  }
+
+  .hero__title
+  {
+    font-size: 220%;
+  }
+
+
 }
