@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{70:function(a){a.exports=JSON.parse('{"allTagsPath":"/my-tcc/blog/tags","slug":"boas-vindas","name":"boas-vindas","count":1,"permalink":"/my-tcc/blog/tags/boas-vindas"}')}}]);
