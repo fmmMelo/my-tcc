@@ -6,6 +6,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+package-lock
 
 # Misc
 .DS_Store
