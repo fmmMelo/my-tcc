@@ -2,7 +2,7 @@ module.exports = {
   title: 'DBC | Drone de Baixo Custo',
   tagline: 'Drone de Baixo Custo',
   url: 'https://fmmMelo.github.io',
-  baseUrl: '/my-tcc/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'fmmMelo', // Usually your GitHub org/user name.
@@ -63,7 +63,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: [require.resolve('./src/css/custom.css')],
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],

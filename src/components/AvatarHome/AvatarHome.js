@@ -19,7 +19,7 @@ function AvatarHome() {
           </small>
         </div>
       </div>
-</main>
+    </main>
     
   );
 }
