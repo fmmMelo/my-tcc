@@ -1,39 +1,31 @@
-/* stylelint-disable docusaurus/copyright-header */
-
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  background-image: url("../../static/img/background 2.jpg");
-  padding: 16.5rem;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: auto 950px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: #fff;
-}
-
-
-
-
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 6rem;
+    background-image: url("../../static/img/background 2.jpg");
+    padding: 16.5rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 950px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
   }
-
-  .row, .col
-  {
-    margin-top: 5rem;
+  
+  
+  
+  
+  @media screen and (max-width: 966px) {
+    .heroBanner {
+      padding: 6rem;
+    }
+  
+    .row, .col
+    {
+      margin-top: 5rem;
+    }
+  
+    footer
+    {
+      flex-direction: column;
+    }
+  
   }
-
-  footer
-  {
-    flex-direction: column;
-  }
-
-}
-
